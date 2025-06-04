@@ -1,0 +1,7 @@
+CREATE TABLE logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    message VARCHAR(255),
+    level VARCHAR(50),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    sent TINYINT DEFAULT 0
+);
